@@ -188,25 +188,10 @@ h3 {
 
 /* --- Track Record --- */
 
-.track-record ul {
-  list-style: none;
-  padding: 0;
-}
-
-.track-record li {
-  padding: 14px 0;
-  border-bottom: 1px solid var(--color-border);
+.track-record p {
   color: var(--color-text-secondary);
-  font-size: 0.95rem;
-}
-
-.track-record li:last-child {
-  border-bottom: none;
-}
-
-.track-record li strong {
-  color: var(--color-text);
-  font-weight: 600;
+  max-width: 640px;
+  margin-bottom: 12px;
 }
 
 /* --- Principal --- */
