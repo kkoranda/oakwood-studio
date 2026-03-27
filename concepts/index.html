@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oakwood Studio — Logo Concepts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fafaf9;
+      color: #2c2a27;
+      padding: 48px 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: #57534e;
+      margin-bottom: 48px;
+      font-size: 0.95rem;
+    }
+    .concepts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+    .concept-e-wide {
+      grid-column: 1 / -1;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+    .concept {
+      background: #ffffff;
+      border: 1px solid #e7e5e4;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .concept-preview {
+      padding: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 260px;
+      background: #fafaf9;
+    }
+    .concept-preview img {
+      max-height: 180px;
+      max-width: 100%;
+    }
+    .concept-preview.with-wordmark {
+      flex-direction: column;
+      gap: 16px;
+    }
+    .concept-preview .wordmark {
+      text-align: center;
+    }
+    .concept-preview .wordmark .name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #2c2a27;
+      letter-spacing: -0.5px;
+    }
+    .concept-preview .wordmark .sub {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #6b7f5a;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+    }
+    .concept-info {
+      padding: 20px 24px;
+      border-top: 1px solid #e7e5e4;
+    }
+    .concept-info h2 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .concept-info p {
+      font-size: 0.85rem;
+      color: #57534e;
+      line-height: 1.6;
+    }
+    .concept-info .tag {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 3px 10px;
+      background: #e8ece4;
+      color: #5c6e4e;
+      font-size: 0.72rem;
+      font-weight: 500;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Dark background variant preview */
+    .concept-preview.dark {
+      background: #2c2a27;
+    }
+    .concept-preview.dark .wordmark .name {
+      color: #fafaf9;
+    }
+
+    .variant-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .variant-row .concept-preview {
+      min-height: 200px;
+    }
+    .variant-row .concept-preview:first-child {
+      border-right: 1px solid #e7e5e4;
+    }
+
+    @media (max-width: 640px) {
+      .concepts { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Logo Concepts</h1>
+  <p class="subtitle">Five directions for the Oakwood Studio mark. Each shown with the wordmark pairing.</p>
+
+  <div class="concepts">
+
+    <!-- Concept A -->
+    <div class="concept">
+      <div class="concept-preview with-wordmark">
+        <img src="concept-a-full-canopy.svg" alt="Concept A">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+      <div class="concept-info">
+        <h2>A — Full Canopy Silhouette</h2>
+        <p>The bur oak in full leaf. Wide spreading canopy, warm trunk, grounded root flare. Iconic and recognizable at any size. National-park-emblem energy.</p>
+        <span class="tag">Warm</span> <span class="tag">Classic</span> <span class="tag">Grounded</span>
+      </div>
+    </div>
+
+    <!-- Concept B -->
+    <div class="concept">
+      <div class="concept-preview with-wordmark">
+        <img src="concept-b-canopy-only.svg" alt="Concept B">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+      <div class="concept-info">
+        <h2>B — Canopy Only</h2>
+        <p>Just the crown — an abstract cloud of foliage clusters. No trunk, no ground. Modern and clean. The tree is implied, not literal.</p>
+        <span class="tag">Modern</span> <span class="tag">Abstract</span> <span class="tag">Minimal</span>
+      </div>
+    </div>
+
+    <!-- Concept C -->
+    <div class="concept">
+      <div class="concept-preview with-wordmark">
+        <img src="concept-c-leaf-ring.svg" alt="Concept C" style="max-height: 160px;">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+      <div class="concept-info">
+        <h2>C — Oak Leaf + Ring</h2>
+        <p>A detailed oak leaf centered in a circular seal. Professional, established, works beautifully as a stamp or badge. Strong favicon potential.</p>
+        <span class="tag">Professional</span> <span class="tag">Seal</span> <span class="tag">Detailed</span>
+      </div>
+    </div>
+
+    <!-- Concept D -->
+    <div class="concept">
+      <div class="concept-preview with-wordmark">
+        <img src="concept-d-spreading-branches.svg" alt="Concept D">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+      <div class="concept-info">
+        <h2>D — Spreading Branches</h2>
+        <p>The bur oak's branching architecture — a stout trunk splitting into main limbs with foliage clusters at the ends. Structural, architectural. Emphasizes strength and reach.</p>
+        <span class="tag">Architectural</span> <span class="tag">Structural</span> <span class="tag">Bold</span>
+      </div>
+    </div>
+
+    <!-- Concept E -->
+    <div class="concept concept-e-wide">
+      <div class="variant-row">
+        <div class="concept-preview with-wordmark">
+          <img src="concept-e-negative-space.svg" alt="Concept E — Light">
+          <div class="wordmark">
+            <div class="name">Oakwood</div>
+            <div class="sub">Studio</div>
+          </div>
+        </div>
+        <div class="concept-preview with-wordmark dark">
+          <img src="concept-e-negative-space.svg" alt="Concept E — Dark">
+          <div class="wordmark">
+            <div class="name">Oakwood</div>
+            <div class="sub">Studio</div>
+          </div>
+        </div>
+      </div>
+      <div class="concept-info">
+        <h2>E — Negative Space Light</h2>
+        <p>The full bur oak silhouette with warm light filtering through the trunk — directly inspired by the reference photo. The sunburst adds warmth without complexity. Shown on light and dark backgrounds.</p>
+        <span class="tag">Inspired</span> <span class="tag">Warm</span> <span class="tag">Distinctive</span>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

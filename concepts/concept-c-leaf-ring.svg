@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Concept C — Single Oak Leaf + Ring -->
+  <!-- Detailed oak leaf inside a circular seal border -->
+
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#5c6e4e" stroke-width="3"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#5c6e4e" stroke-width="1" opacity="0.4"/>
+
+  <!-- Oak leaf - distinctive lobed shape -->
+  <g transform="translate(100, 100) scale(1.1)">
+    <!-- Main leaf shape built from the classic bur oak leaf profile -->
+    <path d="
+      M0 -55
+      C4 -50, 8 -46, 14 -44
+      C10 -40, 6 -36, 12 -32
+      C18 -30, 24 -28, 28 -24
+      C24 -20, 18 -16, 22 -12
+      C28 -8, 34 -4, 36 0
+      C34 4, 28 8, 30 14
+      C32 20, 30 26, 26 32
+      C22 36, 16 38, 12 42
+      C8 46, 4 52, 2 58
+      C1 60, -1 60, -2 58
+      C-4 52, -8 46, -12 42
+      C-16 38, -22 36, -26 32
+      C-30 26, -32 20, -30 14
+      C-28 8, -34 4, -36 0
+      C-34 -4, -28 -8, -22 -12
+      C-18 -16, -24 -20, -28 -24
+      C-24 -28, -18 -30, -12 -32
+      C-6 -36, -10 -40, -14 -44
+      C-8 -46, -4 -50, 0 -55
+      Z"
+      fill="#6b7f5a"
+    />
+    <!-- Central vein -->
+    <line x1="0" y1="-50" x2="0" y2="56" stroke="#4a5a3e" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <!-- Side veins -->
+    <line x1="0" y1="-40" x2="12" y2="-44" stroke="#4a5a3e" stroke-width="0.8" opacity="0.35"/>
+    <line x1="0" y1="-40" x2="-12" y2="-44" stroke="#4a5a3e" stroke-width="0.8" opacity="0.35"/>
+    <line x1="0" y1="-25" x2="26" y2="-26" stroke="#4a5a3e" stroke-width="0.8" opacity="0.35"/>
+    <line x1="0" y1="-25" x2="-26" y2="-26" stroke="#4a5a3e" stroke-width="0.8" opacity="0.35"/>
+    <line x1="0" y1="-5" x2="34" y2="-2" stroke="#4a5a3e" stroke-width="0.8" opacity="0.35"/>
+    <line x1="0" y1="-5" x2="-34" y2="-2" stroke="#4a5a3e" stroke-width="0.8" opacity="0.35"/>
+    <line x1="0" y1="18" x2="28" y2="16" stroke="#4a5a3e" stroke-width="0.8" opacity="0.35"/>
+    <line x1="0" y1="18" x2="-28" y2="16" stroke="#4a5a3e" stroke-width="0.8" opacity="0.35"/>
+  </g>
+
+  <!-- Stem extending below leaf -->
+  <path d="M100 158 C100 162, 101 166, 102 170 C102.3 171, 101.5 172, 100.5 172 C99.5 172, 98.7 171, 99 170 C99 166, 99 162, 100 158Z" fill="#8b7355"/>
+</svg>

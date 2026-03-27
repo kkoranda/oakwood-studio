@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <!-- Concept B — Canopy Only (No Trunk) -->
+  <!-- Abstract rounded crown with lobed oak-cluster edges -->
+
+  <!-- Base canopy shape -->
+  <ellipse cx="100" cy="72" rx="75" ry="52" fill="#6b7f5a"/>
+
+  <!-- Lobe clusters along the edge for organic oak feel -->
+  <!-- Top -->
+  <circle cx="100" cy="24" r="22" fill="#6b7f5a"/>
+  <circle cx="78" cy="30" r="18" fill="#6b7f5a"/>
+  <circle cx="122" cy="30" r="18" fill="#6b7f5a"/>
+
+  <!-- Upper left -->
+  <circle cx="48" cy="45" r="20" fill="#6b7f5a"/>
+  <circle cx="35" cy="60" r="17" fill="#6b7f5a"/>
+
+  <!-- Upper right -->
+  <circle cx="152" cy="45" r="20" fill="#6b7f5a"/>
+  <circle cx="165" cy="60" r="17" fill="#6b7f5a"/>
+
+  <!-- Mid left -->
+  <circle cx="28" cy="78" r="16" fill="#6b7f5a"/>
+  <circle cx="32" cy="95" r="14" fill="#6b7f5a"/>
+
+  <!-- Mid right -->
+  <circle cx="172" cy="78" r="16" fill="#6b7f5a"/>
+  <circle cx="168" cy="95" r="14" fill="#6b7f5a"/>
+
+  <!-- Bottom -->
+  <circle cx="50" cy="110" r="15" fill="#6b7f5a"/>
+  <circle cx="80" cy="118" r="14" fill="#6b7f5a"/>
+  <circle cx="120" cy="118" r="14" fill="#6b7f5a"/>
+  <circle cx="150" cy="110" r="15" fill="#6b7f5a"/>
+
+  <!-- Subtle inner highlight for depth -->
+  <ellipse cx="100" cy="65" rx="55" ry="35" fill="#7a8e68" opacity="0.4"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <!-- Concept E — Oak Silhouette with Negative Space Light -->
+  <!-- Full bur oak shape with light filtering through the trunk area -->
+
+  <defs>
+    <!-- Mask to cut light gap in trunk/canopy -->
+    <mask id="lightmask">
+      <rect width="200" height="220" fill="white"/>
+      <!-- Light rays emanating from trunk center -->
+      <ellipse cx="100" cy="130" rx="6" ry="18" fill="black" opacity="0.9"/>
+      <ellipse cx="100" cy="128" rx="3" ry="12" fill="black"/>
+      <!-- Small light gaps in canopy -->
+      <circle cx="85" cy="108" r="3" fill="black" opacity="0.6"/>
+      <circle cx="115" cy="105" r="2.5" fill="black" opacity="0.5"/>
+      <circle cx="100" cy="98" r="2" fill="black" opacity="0.4"/>
+    </mask>
+
+    <!-- Radial glow for the light source -->
+    <radialGradient id="glow" cx="50%" cy="62%" r="15%">
+      <stop offset="0%" stop-color="#f0e6d3" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#dbc7a0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#dbc7a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Light glow behind the tree -->
+  <ellipse cx="100" cy="135" rx="30" ry="35" fill="url(#glow)"/>
+
+  <!-- Tree group with mask applied -->
+  <g mask="url(#lightmask)">
+    <!-- Canopy -->
+    <ellipse cx="100" cy="72" rx="80" ry="55" fill="#5c6e4e"/>
+    <ellipse cx="38" cy="78" rx="32" ry="36" fill="#5c6e4e"/>
+    <ellipse cx="162" cy="78" rx="32" ry="36" fill="#5c6e4e"/>
+    <ellipse cx="55" cy="50" rx="28" ry="30" fill="#5c6e4e"/>
+    <ellipse cx="145" cy="50" rx="28" ry="30" fill="#5c6e4e"/>
+    <ellipse cx="100" cy="32" rx="35" ry="26" fill="#5c6e4e"/>
+    <ellipse cx="48" cy="100" rx="26" ry="20" fill="#5c6e4e"/>
+    <ellipse cx="152" cy="100" rx="26" ry="20" fill="#5c6e4e"/>
+    <ellipse cx="100" cy="105" rx="48" ry="18" fill="#5c6e4e"/>
+
+    <!-- Trunk -->
+    <path d="M88 112 C86 130, 84 155, 82 180 C82 186, 85 192, 92 195 L108 195 C115 192, 118 186, 118 180 C116 155, 114 130, 112 112Z" fill="#6b5d45"/>
+
+    <!-- Root flare -->
+    <path d="M82 180 C74 188, 65 194, 58 198 L75 200 L92 195Z" fill="#6b5d45"/>
+    <path d="M118 180 C126 188, 135 194, 142 198 L125 200 L108 195Z" fill="#6b5d45"/>
+  </g>
+
+  <!-- Subtle warm glow visible through the gaps -->
+  <ellipse cx="100" cy="130" rx="4" ry="14" fill="#f0e6d3" opacity="0.6"/>
+
+  <!-- Ground line -->
+  <line x1="42" y1="200" x2="158" y2="200" stroke="#8b7355" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+</svg>

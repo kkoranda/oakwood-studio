@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <!-- Concept A — Full Canopy Silhouette -->
+  <!-- Bur oak in full leaf, wide spreading canopy, warm trunk -->
+
+  <!-- Canopy - layered ellipses for organic oak crown shape -->
+  <!-- Main canopy mass -->
+  <ellipse cx="100" cy="80" rx="82" ry="60" fill="#5c6e4e"/>
+  <!-- Left bulge -->
+  <ellipse cx="40" cy="85" rx="35" ry="40" fill="#5c6e4e"/>
+  <!-- Right bulge -->
+  <ellipse cx="160" cy="85" rx="35" ry="40" fill="#5c6e4e"/>
+  <!-- Upper left lobe -->
+  <ellipse cx="55" cy="55" rx="30" ry="32" fill="#5c6e4e"/>
+  <!-- Upper right lobe -->
+  <ellipse cx="145" cy="55" rx="30" ry="32" fill="#5c6e4e"/>
+  <!-- Top crown -->
+  <ellipse cx="100" cy="38" rx="38" ry="28" fill="#5c6e4e"/>
+  <!-- Lower left fill -->
+  <ellipse cx="50" cy="105" rx="28" ry="22" fill="#5c6e4e"/>
+  <!-- Lower right fill -->
+  <ellipse cx="150" cy="105" rx="28" ry="22" fill="#5c6e4e"/>
+  <!-- Bottom center canopy -->
+  <ellipse cx="100" cy="110" rx="50" ry="20" fill="#5c6e4e"/>
+
+  <!-- Trunk -->
+  <path d="M88 115 C86 135, 84 160, 82 185 C82 190, 84 195, 90 198 L92 198 C90 185, 92 165, 95 145 L100 145 C98 165, 96 185, 95 198 L105 198 C104 185, 103 165, 105 145 L110 145 C108 165, 110 185, 108 198 L118 198 C120 195, 118 190, 118 185 C116 160, 114 135, 112 115Z" fill="#8b7355"/>
+
+  <!-- Root flare -->
+  <path d="M82 185 C75 192, 68 196, 62 198 L72 200 L90 198Z" fill="#8b7355"/>
+  <path d="M118 185 C125 192, 132 196, 138 198 L128 200 L108 198Z" fill="#8b7355"/>
+
+  <!-- Ground line -->
+  <line x1="45" y1="200" x2="155" y2="200" stroke="#8b7355" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+</svg>
