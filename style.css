@@ -7,10 +7,14 @@
   --color-surface: #ffffff;
   --color-text: #1c1917;
   --color-text-secondary: #57534e;
-  --color-accent: #292524;
+  --color-accent: #2c2a27;
   --color-accent-light: #44403c;
   --color-border: #e7e5e4;
-  --color-warm: #c2956b;
+  --color-warm: #8b7355;
+  --color-green: #5c6e4e;
+  --color-olive: #6b7f5a;
+  --color-sage: #7a8e68;
+  --color-mist: #e8ece4;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
@@ -65,11 +69,11 @@ nav {
   justify-content: center;
   width: 36px;
   height: 36px;
-  background: var(--color-accent);
-  color: var(--color-warm);
-  font-weight: 700;
-  font-size: 18px;
-  border-radius: 6px;
+}
+
+.logo-mark img {
+  width: 100%;
+  height: 100%;
 }
 
 .logo-text {
@@ -91,8 +95,8 @@ nav {
 }
 
 .nav-contact:hover {
-  color: var(--color-accent);
-  border-color: var(--color-accent);
+  color: var(--color-green);
+  border-color: var(--color-green);
 }
 
 /* --- Main Content --- */
@@ -138,10 +142,8 @@ section:last-child {
 /* --- Section Headings --- */
 
 h2 {
-  font-size: 1.25rem;
   font-weight: 600;
-  letter-spacing: -0.3px;
-  color: var(--color-accent);
+  color: var(--color-olive);
   margin-bottom: 20px;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -176,6 +178,7 @@ h3 {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 8px;
+  border-top: 3px solid var(--color-sage);
 }
 
 .capability p {
@@ -229,7 +232,8 @@ h3 {
 }
 
 .contact a:hover {
-  border-color: var(--color-accent);
+  border-color: var(--color-green);
+  color: var(--color-green);
 }
 
 /* --- Footer --- */

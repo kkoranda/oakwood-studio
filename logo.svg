@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" fill="none">
+  <!-- Icon: Stylized oak leaf composed of overlapping rounded shapes -->
+  <g transform="translate(8, 6)">
+    <!-- Leaf body - three overlapping lobes suggesting an oak leaf -->
+    <ellipse cx="30" cy="38" rx="14" ry="20" fill="#5c6e4e" transform="rotate(-8, 30, 38)" opacity="0.85"/>
+    <ellipse cx="22" cy="34" rx="11" ry="16" fill="#6b7f5a" transform="rotate(-25, 22, 34)" opacity="0.9"/>
+    <ellipse cx="38" cy="34" rx="11" ry="16" fill="#6b7f5a" transform="rotate(25, 38, 34)" opacity="0.9"/>
+    <!-- Smaller upper lobes -->
+    <ellipse cx="18" cy="26" rx="8" ry="11" fill="#7a8e68" transform="rotate(-35, 18, 26)" opacity="0.85"/>
+    <ellipse cx="42" cy="26" rx="8" ry="11" fill="#7a8e68" transform="rotate(35, 42, 26)" opacity="0.85"/>
+    <!-- Top lobe -->
+    <ellipse cx="30" cy="18" rx="9" ry="13" fill="#7a8e68" opacity="0.9"/>
+    <!-- Stem -->
+    <path d="M30 48 C30 52, 31 58, 33 64 C33.5 65, 33 66, 32 66 C31 66, 30.5 65, 30.5 64 C29 58, 29 52, 30 48Z" fill="#8b7355"/>
+    <!-- Center vein -->
+    <path d="M30 20 L30 48" stroke="#4a5a3e" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="78" y="42" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="30" font-weight="600" fill="#2c2a27" letter-spacing="-0.5">
+    Oakwood
+  </text>
+  <text x="78" y="66" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="400" fill="#6b7f5a" letter-spacing="3.5" text-transform="uppercase">
+    STUDIO
+  </text>
+</svg>
