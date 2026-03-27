@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240">
+  <!-- Concept F3 — Canopy Light -->
+  <!-- Same bold branching as F2, but viewed more from below like reference photo 2 -->
+  <!-- Bright light filtering through center, cathedral canopy feel -->
+
+  <defs>
+    <radialGradient id="sunburst" cx="50%" cy="38%" r="20%">
+      <stop offset="0%" stop-color="#fffdf5" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#f5eede" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f5eede" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="canopyglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7a8e68" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#5c6e4e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Green ambient canopy glow -->
+  <rect width="300" height="240" fill="url(#canopyglow)"/>
+
+  <!-- === CANOPY — wraps around the whole scene === -->
+  <!-- Deep layer -->
+  <ellipse cx="150" cy="55" rx="140" ry="52" fill="#4a5a3e" opacity="0.9"/>
+  <ellipse cx="45" cy="60" rx="45" ry="35" fill="#4a5a3e" opacity="0.85"/>
+  <ellipse cx="255" cy="60" rx="45" ry="35" fill="#4a5a3e" opacity="0.85"/>
+  <ellipse cx="150" cy="25" rx="80" ry="24" fill="#4a5a3e" opacity="0.8"/>
+
+  <!-- Mid layer -->
+  <ellipse cx="150" cy="50" rx="118" ry="42" fill="#5c6e4e" opacity="0.7"/>
+  <ellipse cx="75" cy="40" rx="42" ry="26" fill="#5c6e4e" opacity="0.65"/>
+  <ellipse cx="225" cy="40" rx="42" ry="26" fill="#5c6e4e" opacity="0.65"/>
+
+  <!-- Bright layer -->
+  <ellipse cx="150" cy="38" rx="80" ry="28" fill="#6b7f5a" opacity="0.45"/>
+  <ellipse cx="90" cy="30" rx="32" ry="18" fill="#6b7f5a" opacity="0.4"/>
+  <ellipse cx="210" cy="30" rx="32" ry="18" fill="#6b7f5a" opacity="0.4"/>
+  <ellipse cx="150" cy="18" rx="45" ry="14" fill="#7a8e68" opacity="0.35"/>
+
+  <!-- Sunburst through center canopy -->
+  <ellipse cx="150" cy="88" rx="45" ry="40" fill="url(#sunburst)"/>
+
+  <!-- === BRANCHES — bold filled polygons, angular === -->
+
+  <!-- TRUNK — massive, viewed slightly from below -->
+  <polygon points="
+    130,230 126,210 122,190 118,170 116,155 116,140 120,128 126,118 136,110
+    164,110 174,118 180,128 184,140 184,155 182,170 178,190 174,210 170,230
+  " fill="#4a3d2e"/>
+
+  <!-- LEFT MAJOR — heavy sweep with zigzag bends -->
+  <polygon points="
+    120,130 106,120 90,112 72,108 56,100 40,96 26,88 14,82 6,76
+    4,72 12,72 26,78 42,86 58,92 74,100 90,106 106,114 122,124
+  " fill="#4a3d2e"/>
+
+  <!-- Left sub off major -->
+  <polygon points="
+    58,100 46,90 36,82 26,76 20,68
+    18,64 26,68 38,76 48,86 58,94
+  " fill="#4a3d2e"/>
+
+  <!-- LEFT UPPER — angular zigzag climb -->
+  <polygon points="
+    128,120 116,106 106,90 94,76 84,62 76,48 70,36 66,24 64,16
+    60,12 64,10 68,18 74,30 80,44 88,56 98,70 110,86 120,102 132,114
+  " fill="#4a3d2e"/>
+
+  <!-- Left upper sub-branch -->
+  <polygon points="
+    94,78 82,66 72,56 62,50 54,42
+    52,38 60,42 70,50 80,60 92,72
+  " fill="#4a3d2e"/>
+
+  <!-- CENTER-LEFT -->
+  <polygon points="
+    136,112 132,94 128,74 124,56 120,40 116,26 114,14
+    110,10 114,8 118,18 122,32 128,48 134,66 138,86 142,108
+  " fill="#4a3d2e"/>
+
+  <!-- CENTER -->
+  <polygon points="
+    144,110 142,88 140,66 142,48 144,32 146,20 148,10
+    152,10 154,20 156,32 158,48 160,66 158,88 156,110
+  " fill="#4a3d2e"/>
+
+  <!-- CENTER-RIGHT -->
+  <polygon points="
+    158,108 162,86 166,66 172,48 178,32 182,18 186,8
+    190,10 186,26 184,40 178,56 172,74 168,94 164,112
+  " fill="#4a3d2e"/>
+
+  <!-- RIGHT UPPER — angular zigzag climb -->
+  <polygon points="
+    168,114 180,102 190,86 202,70 212,56 220,44 226,30 232,18 236,10
+    240,12 236,24 230,36 224,48 216,62 206,76 194,90 184,106 172,120
+  " fill="#4a3d2e"/>
+
+  <!-- Right upper sub-branch -->
+  <polygon points="
+    206,78 218,66 228,56 238,50 246,42
+    248,38 240,42 230,50 220,60 208,72
+  " fill="#4a3d2e"/>
+
+  <!-- RIGHT MAJOR — heavy sweep -->
+  <polygon points="
+    178,124 194,114 210,106 226,100 242,92 258,86 274,78 288,72 296,72
+    294,76 286,82 274,88 258,96 240,100 228,108 210,112 194,120 180,130
+  " fill="#4a3d2e"/>
+
+  <!-- Right sub off major -->
+  <polygon points="
+    242,100 254,90 264,82 274,76 280,68
+    282,64 274,68 262,76 252,86 242,94
+  " fill="#4a3d2e"/>
+
+  <!-- ROOTS -->
+  <polygon points="130,230 116,232 92,236 70,238 56,240 54,236 68,232 90,228 116,224" fill="#4a3d2e"/>
+  <polygon points="170,230 184,232 208,236 230,238 244,240 246,236 232,232 210,228 184,224" fill="#4a3d2e"/>
+
+  <!-- === FOREGROUND CANOPY — patches of leaves in front === -->
+  <ellipse cx="30" cy="55" rx="22" ry="14" fill="#5c6e4e" opacity="0.6"/>
+  <ellipse cx="270" cy="55" rx="22" ry="14" fill="#5c6e4e" opacity="0.6"/>
+  <ellipse cx="80" cy="24" rx="18" ry="10" fill="#6b7f5a" opacity="0.4"/>
+  <ellipse cx="220" cy="24" rx="18" ry="10" fill="#6b7f5a" opacity="0.4"/>
+  <ellipse cx="150" cy="14" rx="22" ry="8" fill="#6b7f5a" opacity="0.35"/>
+
+  <!-- Lower edge canopy to frame -->
+  <ellipse cx="40" cy="95" rx="22" ry="12" fill="#4a5a3e" opacity="0.5"/>
+  <ellipse cx="260" cy="95" rx="22" ry="12" fill="#4a5a3e" opacity="0.5"/>
+
+  <!-- Ground -->
+  <line x1="40" y1="242" x2="260" y2="242" stroke="#4a3d2e" stroke-width="1" stroke-linecap="round" opacity="0.2"/>
+</svg>

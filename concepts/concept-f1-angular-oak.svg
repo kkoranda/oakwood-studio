@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240">
+  <!-- Concept F1 — Angular Oak -->
+  <!-- Thick muscular limbs, zigzag branching, massive trunk, lush canopy -->
+
+  <defs>
+    <radialGradient id="glow1" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#f5f0e4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fafaf9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Warm background glow -->
+  <ellipse cx="150" cy="108" rx="130" ry="95" fill="url(#glow1)"/>
+
+  <!-- === CANOPY — dense green behind the branches === -->
+  <!-- Layer 1: deep background canopy -->
+  <ellipse cx="150" cy="65" rx="130" ry="58" fill="#5c6e4e" opacity="0.9"/>
+  <ellipse cx="60" cy="72" rx="55" ry="42" fill="#5c6e4e" opacity="0.85"/>
+  <ellipse cx="240" cy="72" rx="55" ry="42" fill="#5c6e4e" opacity="0.85"/>
+  <ellipse cx="150" cy="35" rx="70" ry="32" fill="#5c6e4e" opacity="0.85"/>
+  <ellipse cx="85" cy="42" rx="45" ry="30" fill="#5c6e4e" opacity="0.8"/>
+  <ellipse cx="215" cy="42" rx="45" ry="30" fill="#5c6e4e" opacity="0.8"/>
+
+  <!-- Layer 2: mid canopy for depth -->
+  <ellipse cx="150" cy="58" rx="110" ry="48" fill="#6b7f5a" opacity="0.7"/>
+  <ellipse cx="70" cy="55" rx="42" ry="32" fill="#6b7f5a" opacity="0.65"/>
+  <ellipse cx="230" cy="55" rx="42" ry="32" fill="#6b7f5a" opacity="0.65"/>
+
+  <!-- Layer 3: bright highlights on top -->
+  <ellipse cx="100" cy="30" rx="35" ry="20" fill="#7a8e68" opacity="0.5"/>
+  <ellipse cx="200" cy="30" rx="35" ry="20" fill="#7a8e68" opacity="0.5"/>
+  <ellipse cx="150" cy="22" rx="40" ry="18" fill="#7a8e68" opacity="0.45"/>
+  <ellipse cx="55" cy="50" rx="25" ry="18" fill="#7a8e68" opacity="0.4"/>
+  <ellipse cx="245" cy="50" rx="25" ry="18" fill="#7a8e68" opacity="0.4"/>
+
+  <!-- === TRUNK AND BRANCHES — thick filled shapes with angular zigzag === -->
+
+  <!-- Main trunk — massive, wide -->
+  <path d="
+    M130 210
+    C128 200, 124 185, 122 170
+    L120 155
+    C118 145, 118 138, 120 130
+    L122 122
+    C124 116, 128 112, 134 108
+    L140 106
+    L150 106
+    L160 108
+    C168 112, 172 116, 175 122
+    L178 130
+    C180 138, 180 145, 178 155
+    L175 170
+    C173 185, 170 200, 168 210
+    Z" fill="#6b5d45"/>
+
+  <!-- Left major limb — thick, angular zigzag -->
+  <path d="
+    M124 120
+    L108 108
+    L100 100
+    L88 95
+    L75 88
+    L62 80
+    L48 78
+    L38 72
+    L28 68
+    L22 62
+    L18 56
+    L22 54
+    L30 58
+    L40 64
+    L52 70
+    L64 72
+    L78 80
+    L90 86
+    L102 92
+    L112 100
+    L126 112
+    Z" fill="#6b5d45"/>
+
+  <!-- Left upper limb — zigzags upward -->
+  <path d="
+    M128 114
+    L118 104
+    L108 92
+    L96 80
+    L88 68
+    L80 58
+    L72 48
+    L66 38
+    L62 30
+    L66 28
+    L74 36
+    L82 46
+    L90 58
+    L100 68
+    L110 82
+    L120 96
+    L132 108
+    Z" fill="#6b5d45"/>
+
+  <!-- Left mid sub-branch -->
+  <path d="
+    M100 94
+    L90 82
+    L82 74
+    L72 68
+    L66 60
+    L70 58
+    L78 64
+    L88 72
+    L96 82
+    L106 92
+    Z" fill="#6b5d45"/>
+
+  <!-- Center-left limb going up -->
+  <path d="
+    M136 108
+    L130 92
+    L126 78
+    L120 62
+    L116 48
+    L112 36
+    L110 26
+    L114 24
+    L118 34
+    L122 48
+    L128 62
+    L134 78
+    L138 92
+    L142 106
+    Z" fill="#6b5d45"/>
+
+  <!-- Center limb — vertical with slight zigzag -->
+  <path d="
+    M144 106
+    L142 88
+    L140 72
+    L142 56
+    L144 42
+    L146 30
+    L148 20
+    L152 20
+    L154 30
+    L156 42
+    L158 56
+    L158 72
+    L156 88
+    L154 106
+    Z" fill="#6b5d45"/>
+
+  <!-- Center-right limb going up -->
+  <path d="
+    M158 108
+    L164 92
+    L170 78
+    L176 62
+    L180 48
+    L184 36
+    L188 26
+    L192 28
+    L188 38
+    L184 50
+    L178 64
+    L172 78
+    L166 94
+    L160 108
+    Z" fill="#6b5d45"/>
+
+  <!-- Right upper limb — zigzags upward -->
+  <path d="
+    M168 114
+    L178 104
+    L190 92
+    L202 80
+    L212 68
+    L220 58
+    L228 48
+    L234 38
+    L238 30
+    L242 32
+    L236 42
+    L228 52
+    L218 64
+    L206 76
+    L194 88
+    L182 100
+    L172 110
+    Z" fill="#6b5d45"/>
+
+  <!-- Right mid sub-branch -->
+  <path d="
+    M198 94
+    L210 82
+    L218 74
+    L228 68
+    L234 60
+    L230 58
+    L222 64
+    L212 72
+    L202 82
+    L194 92
+    Z" fill="#6b5d45"/>
+
+  <!-- Right major limb — thick, angular zigzag -->
+  <path d="
+    M174 120
+    L190 108
+    L200 100
+    L212 95
+    L225 88
+    L238 80
+    L250 78
+    L262 72
+    L272 68
+    L278 62
+    L282 56
+    L278 54
+    L270 58
+    L260 64
+    L248 70
+    L236 72
+    L222 80
+    L210 86
+    L198 92
+    L186 100
+    L174 112
+    Z" fill="#6b5d45"/>
+
+  <!-- Root flare left -->
+  <path d="
+    M130 210
+    L118 212
+    L100 216
+    L82 218
+    L70 220
+    L68 218
+    L80 214
+    L100 210
+    L120 206
+    Z" fill="#6b5d45"/>
+
+  <!-- Root flare right -->
+  <path d="
+    M168 210
+    L182 212
+    L200 216
+    L218 218
+    L230 220
+    L232 218
+    L220 214
+    L200 210
+    L178 206
+    Z" fill="#6b5d45"/>
+
+  <!-- === FOREGROUND CANOPY — patches in front of some branches for depth === -->
+  <ellipse cx="45" cy="65" rx="20" ry="14" fill="#6b7f5a" opacity="0.5"/>
+  <ellipse cx="255" cy="65" rx="20" ry="14" fill="#6b7f5a" opacity="0.5"/>
+  <ellipse cx="100" cy="38" rx="18" ry="12" fill="#7a8e68" opacity="0.35"/>
+  <ellipse cx="200" cy="38" rx="18" ry="12" fill="#7a8e68" opacity="0.35"/>
+  <ellipse cx="150" cy="28" rx="16" ry="10" fill="#7a8e68" opacity="0.3"/>
+
+  <!-- Ground line -->
+  <line x1="55" y1="222" x2="245" y2="222" stroke="#6b5d45" stroke-width="1.2" stroke-linecap="round" opacity="0.25"/>
+</svg>
