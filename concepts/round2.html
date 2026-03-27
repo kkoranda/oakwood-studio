@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oakwood Studio — Logo Round 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fafaf9;
+      color: #2c2a27;
+      padding: 48px 24px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 8px; }
+    .subtitle { color: #57534e; margin-bottom: 48px; font-size: 0.95rem; }
+    .concept {
+      background: #fff;
+      border: 1px solid #e7e5e4;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+    .variant-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .concept-preview {
+      padding: 40px 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 280px;
+      background: #fafaf9;
+    }
+    .concept-preview.dark {
+      background: #2c2a27;
+    }
+    .concept-preview img {
+      max-height: 160px;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+    .wordmark { text-align: center; }
+    .wordmark .name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #2c2a27;
+      letter-spacing: -0.5px;
+    }
+    .dark .wordmark .name { color: #fafaf9; }
+    .wordmark .sub {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #6b7f5a;
+      letter-spacing: 3.5px;
+    }
+    .concept-info {
+      padding: 20px 24px;
+      border-top: 1px solid #e7e5e4;
+    }
+    .concept-info h2 { font-size: 0.95rem; font-weight: 600; margin-bottom: 6px; }
+    .concept-info p { font-size: 0.85rem; color: #57534e; line-height: 1.6; }
+    .tag {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 3px 10px;
+      background: #e8ece4;
+      color: #5c6e4e;
+      font-size: 0.72rem;
+      font-weight: 500;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+      margin-right: 4px;
+    }
+    .variant-row .concept-preview:first-child {
+      border-right: 1px solid #e7e5e4;
+    }
+    .ref { margin-bottom: 40px; }
+    .ref img { max-width: 300px; border-radius: 8px; border: 1px solid #e7e5e4; }
+    .ref p { font-size: 0.85rem; color: #57534e; margin-top: 8px; }
+    @media (max-width: 640px) {
+      .variant-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Round 2 — Angel Oak Inspired</h1>
+  <p class="subtitle">Three variations capturing the wide sweeping limbs, visible branching, and open canopy feel.</p>
+
+  <div class="ref">
+    <img src="reference-oak.jpg" alt="Reference — Angel Oak">
+    <p>Reference: wide horizontal reach, visible branch architecture, bright and open.</p>
+  </div>
+
+  <!-- E2 -->
+  <div class="concept">
+    <div class="variant-row">
+      <div class="concept-preview">
+        <img src="concept-e2-angel-oak.svg" alt="E2 Light">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+      <div class="concept-preview dark">
+        <img src="concept-e2-angel-oak.svg" alt="E2 Dark">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+    </div>
+    <div class="concept-info">
+      <h2>E2 — Full Angel Oak</h2>
+      <p>Dense branching with full foliage clusters. Closest to the reference — you can see the branch architecture through the canopy. Warm background glow. The most detailed of the three.</p>
+      <span class="tag">Detailed</span><span class="tag">Warm</span><span class="tag">Closest to reference</span>
+    </div>
+  </div>
+
+  <!-- E3 -->
+  <div class="concept">
+    <div class="variant-row">
+      <div class="concept-preview">
+        <img src="concept-e3-open-canopy.svg" alt="E3 Light">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+      <div class="concept-preview dark">
+        <img src="concept-e3-open-canopy.svg" alt="E3 Dark">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+    </div>
+    <div class="concept-info">
+      <h2>E3 — Open Canopy</h2>
+      <p>Same branching structure but foliage is lighter and more transparent — airy clusters at the tips rather than solid masses. The branches are the hero. Feels brightest and most open of the three.</p>
+      <span class="tag">Open</span><span class="tag">Airy</span><span class="tag">Branch-forward</span>
+    </div>
+  </div>
+
+  <!-- E4 -->
+  <div class="concept">
+    <div class="variant-row">
+      <div class="concept-preview">
+        <img src="concept-e4-minimal-branch.svg" alt="E4 Light">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+      <div class="concept-preview dark">
+        <img src="concept-e4-minimal-branch.svg" alt="E4 Dark">
+        <div class="wordmark">
+          <div class="name">Oakwood</div>
+          <div class="sub">Studio</div>
+        </div>
+      </div>
+    </div>
+    <div class="concept-info">
+      <h2>E4 — Minimal Branch</h2>
+      <p>Stripped to essentials — just the branch silhouette with the faintest foliage suggestion. Cleanest version, scales the best at small sizes. The wide horizontal sweep and stout trunk carry the identity alone.</p>
+      <span class="tag">Minimal</span><span class="tag">Clean</span><span class="tag">Scalable</span>
+    </div>
+  </div>
+
+</body>
+</html>

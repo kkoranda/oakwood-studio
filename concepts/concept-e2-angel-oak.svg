@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 200">
+  <!-- Concept E2 — Angel Oak inspired -->
+  <!-- Wide sweeping limbs, visible branching, bright open canopy, stout trunk -->
+
+  <defs>
+    <!-- Soft warm glow behind tree -->
+    <radialGradient id="backglow" cx="50%" cy="55%" r="45%">
+      <stop offset="0%" stop-color="#f5eede" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#f5eede" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background warmth -->
+  <ellipse cx="130" cy="110" rx="110" ry="80" fill="url(#backglow)"/>
+
+  <!-- === CANOPY — clusters of foliage with gaps for light === -->
+
+  <!-- Far left canopy -->
+  <ellipse cx="22" cy="72" rx="20" ry="16" fill="#7a8e68" opacity="0.85"/>
+  <ellipse cx="15" cy="62" rx="14" ry="12" fill="#7a8e68" opacity="0.7"/>
+  <ellipse cx="38" cy="64" rx="16" ry="14" fill="#6b7f5a" opacity="0.85"/>
+
+  <!-- Left canopy -->
+  <ellipse cx="52" cy="48" rx="22" ry="18" fill="#6b7f5a"/>
+  <ellipse cx="40" cy="55" rx="18" ry="15" fill="#5c6e4e" opacity="0.9"/>
+  <ellipse cx="68" cy="42" rx="18" ry="14" fill="#7a8e68" opacity="0.85"/>
+  <ellipse cx="55" cy="35" rx="16" ry="12" fill="#7a8e68" opacity="0.8"/>
+
+  <!-- Center-left canopy -->
+  <ellipse cx="90" cy="30" rx="22" ry="16" fill="#6b7f5a"/>
+  <ellipse cx="82" cy="40" rx="18" ry="14" fill="#5c6e4e" opacity="0.9"/>
+  <ellipse cx="100" cy="24" rx="16" ry="13" fill="#7a8e68" opacity="0.85"/>
+
+  <!-- Top center canopy -->
+  <ellipse cx="120" cy="18" rx="20" ry="14" fill="#6b7f5a"/>
+  <ellipse cx="130" cy="14" rx="16" ry="11" fill="#7a8e68" opacity="0.85"/>
+  <ellipse cx="140" cy="22" rx="18" ry="13" fill="#6b7f5a" opacity="0.9"/>
+
+  <!-- Center-right canopy -->
+  <ellipse cx="160" cy="28" rx="20" ry="15" fill="#6b7f5a"/>
+  <ellipse cx="172" cy="38" rx="18" ry="14" fill="#5c6e4e" opacity="0.9"/>
+  <ellipse cx="155" cy="35" rx="15" ry="12" fill="#7a8e68" opacity="0.8"/>
+
+  <!-- Right canopy -->
+  <ellipse cx="195" cy="45" rx="22" ry="18" fill="#6b7f5a"/>
+  <ellipse cx="208" cy="52" rx="18" ry="15" fill="#5c6e4e" opacity="0.9"/>
+  <ellipse cx="188" cy="38" rx="16" ry="13" fill="#7a8e68" opacity="0.85"/>
+  <ellipse cx="202" cy="60" rx="15" ry="12" fill="#6b7f5a" opacity="0.8"/>
+
+  <!-- Far right canopy -->
+  <ellipse cx="228" cy="65" rx="20" ry="16" fill="#7a8e68" opacity="0.85"/>
+  <ellipse cx="238" cy="58" rx="14" ry="12" fill="#7a8e68" opacity="0.7"/>
+  <ellipse cx="218" cy="72" rx="16" ry="13" fill="#6b7f5a" opacity="0.85"/>
+
+  <!-- Lower canopy fills -->
+  <ellipse cx="70" cy="75" rx="16" ry="12" fill="#6b7f5a" opacity="0.7"/>
+  <ellipse cx="105" cy="65" rx="14" ry="10" fill="#6b7f5a" opacity="0.6"/>
+  <ellipse cx="155" cy="62" rx="14" ry="10" fill="#6b7f5a" opacity="0.6"/>
+  <ellipse cx="190" cy="75" rx="16" ry="12" fill="#6b7f5a" opacity="0.7"/>
+
+  <!-- === BRANCHES — visible through the open canopy === -->
+
+  <!-- Main trunk — stout and wide -->
+  <path d="M118 165 C116 150, 112 135, 110 120 C108 110, 110 100, 115 92
+           L130 88
+           C138 92, 145 100, 148 110 C150 120, 148 135, 146 150 C144 158, 142 165, 140 170Z"
+        fill="#8b7355"/>
+
+  <!-- Far left sweeping limb -->
+  <path d="M112 105 C100 100, 82 92, 60 82 C48 78, 32 74, 18 72"
+        stroke="#8b7355" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M60 82 C50 76, 38 66, 28 60"
+        stroke="#8b7355" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M75 88 C68 82, 55 72, 45 65"
+        stroke="#8b7355" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Left upper limb -->
+  <path d="M115 95 C105 85, 88 68, 70 50 C62 42, 52 36, 45 32"
+        stroke="#8b7355" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M82 60 C76 52, 68 42, 58 36"
+        stroke="#8b7355" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Center-left limb -->
+  <path d="M120 92 C115 78, 108 58, 98 38 C94 30, 88 24, 82 20"
+        stroke="#8b7355" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Center vertical -->
+  <path d="M125 88 C126 72, 126 52, 125 32 C124 24, 122 18, 120 14"
+        stroke="#8b7355" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Center-right limb -->
+  <path d="M132 90 C138 75, 148 55, 158 38 C162 30, 168 24, 175 20"
+        stroke="#8b7355" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Right upper limb -->
+  <path d="M140 95 C152 82, 170 65, 190 48 C198 42, 205 38, 210 35"
+        stroke="#8b7355" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M178 58 C185 50, 195 42, 202 38"
+        stroke="#8b7355" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Far right sweeping limb -->
+  <path d="M145 105 C158 100, 178 92, 200 82 C212 78, 228 74, 240 70"
+        stroke="#8b7355" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M200 82 C210 76, 222 68, 232 62"
+        stroke="#8b7355" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M185 88 C192 82, 205 72, 215 65"
+        stroke="#8b7355" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Root flare -->
+  <path d="M118 165 C108 172, 92 180, 78 185" stroke="#8b7355" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M95 178 C88 182, 76 186, 68 188" stroke="#8b7355" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M140 170 C150 176, 165 182, 180 185" stroke="#8b7355" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M162 180 C170 183, 182 186, 192 188" stroke="#8b7355" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Ground line -->
+  <line x1="55" y1="190" x2="205" y2="190" stroke="#8b7355" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+</svg>

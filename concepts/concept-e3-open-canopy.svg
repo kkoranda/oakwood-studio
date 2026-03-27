@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 200">
+  <!-- Concept E3 — Open canopy variant -->
+  <!-- Same branching as E2 but lighter, more air, foliage as a softer halo -->
+
+  <defs>
+    <radialGradient id="skyglow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#f8f6f0" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fafaf9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky warmth -->
+  <ellipse cx="130" cy="80" rx="120" ry="75" fill="url(#skyglow)"/>
+
+  <!-- === BRANCHES FIRST — the structure is the hero === -->
+
+  <!-- Main trunk — stout, wide, slightly asymmetric -->
+  <path d="M120 168 C118 152, 114 138, 112 122 C110 112, 112 104, 116 96
+           L132 92
+           C138 98, 142 106, 142 115 C142 128, 140 142, 138 155 C137 162, 136 168, 135 172Z"
+        fill="#7a6b52"/>
+
+  <!-- Far left sweeping limb — the signature horizontal reach -->
+  <path d="M114 108 C98 102, 72 92, 45 82 C32 78, 18 76, 8 75"
+        stroke="#7a6b52" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M55 86 C42 80, 25 70, 15 64"
+        stroke="#7a6b52" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M70 90 C60 84, 48 74, 38 66"
+        stroke="#7a6b52" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M40 82 C35 86, 25 90, 18 92"
+        stroke="#7a6b52" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Left upper limb -->
+  <path d="M116 98 C104 86, 85 65, 65 45 C56 36, 46 28, 38 24"
+        stroke="#7a6b52" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M78 58 C70 48, 58 36, 48 28"
+        stroke="#7a6b52" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M88 68 C82 58, 72 48, 65 42"
+        stroke="#7a6b52" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Center-left limb reaching up -->
+  <path d="M122 94 C118 78, 110 55, 100 35 C96 26, 90 18, 85 14"
+        stroke="#7a6b52" stroke-width="3.8" fill="none" stroke-linecap="round"/>
+  <path d="M106 48 C100 38, 92 26, 86 20"
+        stroke="#7a6b52" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Center vertical -->
+  <path d="M127 92 C128 74, 128 50, 127 30 C126 22, 125 16, 124 10"
+        stroke="#7a6b52" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M127 42 C130 32, 135 22, 138 16"
+        stroke="#7a6b52" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Center-right limb -->
+  <path d="M134 94 C140 76, 150 55, 162 35 C168 26, 175 18, 182 14"
+        stroke="#7a6b52" stroke-width="3.8" fill="none" stroke-linecap="round"/>
+  <path d="M155 48 C162 38, 172 26, 178 20"
+        stroke="#7a6b52" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Right upper limb -->
+  <path d="M138 98 C152 86, 175 65, 195 45 C204 36, 214 28, 222 24"
+        stroke="#7a6b52" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M182 58 C190 48, 204 36, 214 28"
+        stroke="#7a6b52" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M172 68 C178 58, 188 48, 196 42"
+        stroke="#7a6b52" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Far right sweeping limb -->
+  <path d="M140 108 C158 102, 188 92, 215 82 C228 78, 242 76, 252 75"
+        stroke="#7a6b52" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M205 86 C218 80, 235 70, 245 64"
+        stroke="#7a6b52" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M190 90 C200 84, 212 74, 222 66"
+        stroke="#7a6b52" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M220 82 C225 86, 235 90, 242 92"
+        stroke="#7a6b52" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Root flare -->
+  <path d="M120 168 C108 175, 90 182, 72 186" stroke="#7a6b52" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M92 180 C82 184, 68 188, 58 190" stroke="#7a6b52" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M135 172 C148 178, 168 184, 185 186" stroke="#7a6b52" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M165 182 C175 184, 188 188, 200 190" stroke="#7a6b52" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- === FOLIAGE — light, airy clusters at branch tips === -->
+
+  <!-- Far left -->
+  <circle cx="10" cy="70" r="12" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="18" cy="60" r="10" fill="#7a8e68" opacity="0.45"/>
+  <circle cx="14" cy="88" r="9" fill="#7a8e68" opacity="0.4"/>
+
+  <!-- Left -->
+  <circle cx="38" cy="58" r="11" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="42" cy="22" r="12" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="48" cy="30" r="10" fill="#7a8e68" opacity="0.45"/>
+  <circle cx="35" cy="64" r="9" fill="#7a8e68" opacity="0.4"/>
+  <circle cx="62" cy="40" r="10" fill="#7a8e68" opacity="0.45"/>
+
+  <!-- Center left -->
+  <circle cx="85" cy="10" r="12" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="90" cy="20" r="10" fill="#7a8e68" opacity="0.45"/>
+  <circle cx="78" cy="18" r="9" fill="#7a8e68" opacity="0.4"/>
+
+  <!-- Top center -->
+  <circle cx="124" cy="6" r="12" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="115" cy="12" r="10" fill="#7a8e68" opacity="0.45"/>
+  <circle cx="136" cy="12" r="10" fill="#7a8e68" opacity="0.45"/>
+
+  <!-- Center right -->
+  <circle cx="180" cy="10" r="12" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="172" cy="18" r="10" fill="#7a8e68" opacity="0.45"/>
+  <circle cx="186" cy="20" r="9" fill="#7a8e68" opacity="0.4"/>
+
+  <!-- Right -->
+  <circle cx="222" cy="22" r="12" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="214" cy="28" r="10" fill="#7a8e68" opacity="0.45"/>
+  <circle cx="198" cy="40" r="10" fill="#7a8e68" opacity="0.45"/>
+  <circle cx="225" cy="60" r="11" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="220" cy="66" r="9" fill="#7a8e68" opacity="0.4"/>
+
+  <!-- Far right -->
+  <circle cx="250" cy="70" r="12" fill="#7a8e68" opacity="0.5"/>
+  <circle cx="242" cy="60" r="10" fill="#7a8e68" opacity="0.45"/>
+  <circle cx="246" cy="88" r="9" fill="#7a8e68" opacity="0.4"/>
+
+  <!-- Ground line -->
+  <line x1="45" y1="192" x2="215" y2="192" stroke="#7a6b52" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+</svg>
