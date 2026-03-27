@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oakwood Studio — Gemini Oak Review</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fafaf9;
+      color: #2c2a27;
+      padding: 48px 24px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 8px; }
+    h2 { font-size: 1rem; font-weight: 600; margin: 32px 0 12px; color: #6b7f5a; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1.5px; }
+    .subtitle { color: #57534e; margin-bottom: 40px; font-size: 0.95rem; }
+    .preview-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+    .preview {
+      border: 1px solid #e7e5e4;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .preview-label {
+      padding: 10px 16px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #57534e;
+      border-bottom: 1px solid #e7e5e4;
+      background: #fff;
+    }
+    .preview-area {
+      padding: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 250px;
+    }
+    .preview-area.light { background: #fafaf9; }
+    .preview-area.dark { background: #2c2a27; }
+    .preview-area.white { background: #ffffff; }
+    .preview-area.green { background: #e8ece4; }
+    .preview-area img, .preview-area object {
+      max-width: 100%;
+      max-height: 200px;
+    }
+    .logo-lockup {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .logo-lockup img, .logo-lockup object {
+      max-height: 80px;
+      max-width: 120px;
+    }
+    .logo-lockup .wordmark .name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #2c2a27;
+      letter-spacing: -0.5px;
+    }
+    .logo-lockup .wordmark .sub {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #6b7f5a;
+      letter-spacing: 3.5px;
+    }
+    .dark .logo-lockup .wordmark .name { color: #fafaf9; }
+    .full-width {
+      grid-column: 1 / -1;
+    }
+    .notes {
+      background: #fff;
+      border: 1px solid #e7e5e4;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-top: 32px;
+    }
+    .notes h3 { font-size: 0.9rem; font-weight: 600; margin-bottom: 8px; }
+    .notes ul { padding-left: 20px; }
+    .notes li { font-size: 0.85rem; color: #57534e; line-height: 1.6; margin-bottom: 4px; }
+    @media (max-width: 640px) { .preview-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <h1>Gemini Oak — Logo Review</h1>
+  <p class="subtitle">Vectorized output from Gemini, shown in context with the wordmark on various backgrounds.</p>
+
+  <h2>Original vs Vectorized</h2>
+  <div class="preview-grid">
+    <div class="preview">
+      <div class="preview-label">Original PNG (Gemini)</div>
+      <div class="preview-area light">
+        <img src="gemini-oak-original.png" alt="Original PNG">
+      </div>
+    </div>
+    <div class="preview">
+      <div class="preview-label">Vectorized SVG</div>
+      <div class="preview-area light">
+        <img src="gemini-oak-vectorized.svg" alt="Vectorized SVG">
+      </div>
+    </div>
+  </div>
+
+  <h2>Icon + Wordmark Lockup</h2>
+  <div class="preview-grid">
+    <div class="preview">
+      <div class="preview-label">Light background</div>
+      <div class="preview-area light">
+        <div class="logo-lockup">
+          <img src="gemini-oak-vectorized.svg" alt="Oak icon">
+          <div class="wordmark">
+            <div class="name">Oakwood</div>
+            <div class="sub">STUDIO</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="preview">
+      <div class="preview-label">Dark background</div>
+      <div class="preview-area dark">
+        <div class="logo-lockup">
+          <img src="gemini-oak-vectorized.svg" alt="Oak icon">
+          <div class="wordmark">
+            <div class="name">Oakwood</div>
+            <div class="sub">STUDIO</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="preview">
+      <div class="preview-label">White background</div>
+      <div class="preview-area white">
+        <div class="logo-lockup">
+          <img src="gemini-oak-vectorized.svg" alt="Oak icon">
+          <div class="wordmark">
+            <div class="name">Oakwood</div>
+            <div class="sub">STUDIO</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="preview">
+      <div class="preview-label">Brand green tint</div>
+      <div class="preview-area green">
+        <div class="logo-lockup">
+          <img src="gemini-oak-vectorized.svg" alt="Oak icon">
+          <div class="wordmark">
+            <div class="name">Oakwood</div>
+            <div class="sub">STUDIO</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Icon Standalone — Size Tests</h2>
+  <div class="preview-grid">
+    <div class="preview full-width">
+      <div class="preview-label">Scaling: 200px / 100px / 64px / 32px</div>
+      <div class="preview-area white" style="gap: 32px;">
+        <img src="gemini-oak-vectorized.svg" alt="200px" style="max-height: 200px;">
+        <img src="gemini-oak-vectorized.svg" alt="100px" style="max-height: 100px;">
+        <img src="gemini-oak-vectorized.svg" alt="64px" style="max-height: 64px;">
+        <img src="gemini-oak-vectorized.svg" alt="32px" style="max-height: 32px;">
+      </div>
+    </div>
+  </div>
+
+  <div class="notes">
+    <h3>Notes</h3>
+    <ul>
+      <li><strong>File size:</strong> 4.4MB SVG — needs optimization for web use (SVGO or manual path simplification)</li>
+      <li><strong>Background:</strong> The warm cream/beige is baked into the SVG from the vectorization — needs to be separated into a contained glow shape with transparent outer edges</li>
+      <li><strong>Colors:</strong> May need adjustment to align with brand palette (olive greens, warm browns)</li>
+      <li><strong>Small sizes:</strong> Check how it reads at 32px — auto-traced vectors can get muddy at small scales</li>
+    </ul>
+  </div>
+
+</body>
+</html>
