@@ -88,5 +88,21 @@
     <p>Oakwood Studio LLC</p>
   </footer>
 
+  <!-- Firebase visitor counter (hidden, no UI) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+  <script>
+    (function () {
+      firebase.initializeApp({
+        apiKey: "AIzaSyD_QFT3m9xOhTuL1Yf-pctutDEFKCfgca4",
+        databaseURL: "https://oakwood-studio-f6a97-default-rtdb.firebaseio.com",
+        projectId: "oakwood-studio-f6a97"
+      });
+      firebase.database().ref("pageviews/count").transaction(function (n) {
+        return (n || 0) + 1;
+      });
+    })();
+  </script>
+
 </body>
 </html>
